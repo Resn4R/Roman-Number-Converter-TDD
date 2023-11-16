@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FFF1F302B0683F6001AAC8F /* RomanConverter_TDDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF1F2F2B0683F6001AAC8F /* RomanConverter_TDDApp.swift */; };
+		4FFF1F322B0683F6001AAC8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF1F312B0683F6001AAC8F /* ContentView.swift */; };
+		4FFF1F342B0683F8001AAC8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FFF1F332B0683F8001AAC8F /* Assets.xcassets */; };
+		4FFF1F372B0683F8001AAC8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FFF1F362B0683F8001AAC8F /* Preview Assets.xcassets */; };
+		4FFF1F412B0683F8001AAC8F /* RomanConverter_TDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF1F402B0683F8001AAC8F /* RomanConverter_TDDTests.swift */; };
+		4FFF1F4B2B0683F8001AAC8F /* RomanConverter_TDDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF1F4A2B0683F8001AAC8F /* RomanConverter_TDDUITests.swift */; };
+		4FFF1F4D2B0683F8001AAC8F /* RomanConverter_TDDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF1F4C2B0683F8001AAC8F /* RomanConverter_TDDUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FFF1F3D2B0683F8001AAC8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FFF1F242B0683F6001AAC8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FFF1F2B2B0683F6001AAC8F;
+			remoteInfo = "RomanConverter TDD";
+		};
+		4FFF1F472B0683F8001AAC8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FFF1F242B0683F6001AAC8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FFF1F2B2B0683F6001AAC8F;
+			remoteInfo = "RomanConverter TDD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FFF1F2C2B0683F6001AAC8F /* RomanConverter TDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RomanConverter TDD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FFF1F2F2B0683F6001AAC8F /* RomanConverter_TDDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanConverter_TDDApp.swift; sourceTree = "<group>"; };
+		4FFF1F312B0683F6001AAC8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4FFF1F332B0683F8001AAC8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FFF1F362B0683F8001AAC8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4FFF1F3C2B0683F8001AAC8F /* RomanConverter TDDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RomanConverter TDDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FFF1F402B0683F8001AAC8F /* RomanConverter_TDDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanConverter_TDDTests.swift; sourceTree = "<group>"; };
+		4FFF1F462B0683F8001AAC8F /* RomanConverter TDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RomanConverter TDDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FFF1F4A2B0683F8001AAC8F /* RomanConverter_TDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanConverter_TDDUITests.swift; sourceTree = "<group>"; };
+		4FFF1F4C2B0683F8001AAC8F /* RomanConverter_TDDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanConverter_TDDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FFF1F292B0683F6001AAC8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FFF1F392B0683F8001AAC8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FFF1F432B0683F8001AAC8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FFF1F232B0683F6001AAC8F = {
+			isa = PBXGroup;
+			children = (
+				4FFF1F2E2B0683F6001AAC8F /* RomanConverter TDD */,
+				4FFF1F3F2B0683F8001AAC8F /* RomanConverter TDDTests */,
+				4FFF1F492B0683F8001AAC8F /* RomanConverter TDDUITests */,
+				4FFF1F2D2B0683F6001AAC8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FFF1F2D2B0683F6001AAC8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FFF1F2C2B0683F6001AAC8F /* RomanConverter TDD.app */,
+				4FFF1F3C2B0683F8001AAC8F /* RomanConverter TDDTests.xctest */,
+				4FFF1F462B0683F8001AAC8F /* RomanConverter TDDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FFF1F2E2B0683F6001AAC8F /* RomanConverter TDD */ = {
+			isa = PBXGroup;
+			children = (
+				4FFF1F2F2B0683F6001AAC8F /* RomanConverter_TDDApp.swift */,
+				4FFF1F312B0683F6001AAC8F /* ContentView.swift */,
+				4FFF1F332B0683F8001AAC8F /* Assets.xcassets */,
+				4FFF1F352B0683F8001AAC8F /* Preview Content */,
+			);
+			path = "RomanConverter TDD";
+			sourceTree = "<group>";
+		};
+		4FFF1F352B0683F8001AAC8F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4FFF1F362B0683F8001AAC8F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4FFF1F3F2B0683F8001AAC8F /* RomanConverter TDDTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FFF1F402B0683F8001AAC8F /* RomanConverter_TDDTests.swift */,
+			);
+			path = "RomanConverter TDDTests";
+			sourceTree = "<group>";
+		};
+		4FFF1F492B0683F8001AAC8F /* RomanConverter TDDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FFF1F4A2B0683F8001AAC8F /* RomanConverter_TDDUITests.swift */,
+				4FFF1F4C2B0683F8001AAC8F /* RomanConverter_TDDUITestsLaunchTests.swift */,
+			);
+			path = "RomanConverter TDDUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FFF1F2B2B0683F6001AAC8F /* RomanConverter TDD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FFF1F502B0683F8001AAC8F /* Build configuration list for PBXNativeTarget "RomanConverter TDD" */;
+			buildPhases = (
+				4FFF1F282B0683F6001AAC8F /* Sources */,
+				4FFF1F292B0683F6001AAC8F /* Frameworks */,
+				4FFF1F2A2B0683F6001AAC8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RomanConverter TDD";
+			productName = "RomanConverter TDD";
+			productReference = 4FFF1F2C2B0683F6001AAC8F /* RomanConverter TDD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FFF1F3B2B0683F8001AAC8F /* RomanConverter TDDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FFF1F532B0683F8001AAC8F /* Build configuration list for PBXNativeTarget "RomanConverter TDDTests" */;
+			buildPhases = (
+				4FFF1F382B0683F8001AAC8F /* Sources */,
+				4FFF1F392B0683F8001AAC8F /* Frameworks */,
+				4FFF1F3A2B0683F8001AAC8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FFF1F3E2B0683F8001AAC8F /* PBXTargetDependency */,
+			);
+			name = "RomanConverter TDDTests";
+			productName = "RomanConverter TDDTests";
+			productReference = 4FFF1F3C2B0683F8001AAC8F /* RomanConverter TDDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FFF1F452B0683F8001AAC8F /* RomanConverter TDDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FFF1F562B0683F8001AAC8F /* Build configuration list for PBXNativeTarget "RomanConverter TDDUITests" */;
+			buildPhases = (
+				4FFF1F422B0683F8001AAC8F /* Sources */,
+				4FFF1F432B0683F8001AAC8F /* Frameworks */,
+				4FFF1F442B0683F8001AAC8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FFF1F482B0683F8001AAC8F /* PBXTargetDependency */,
+			);
+			name = "RomanConverter TDDUITests";
+			productName = "RomanConverter TDDUITests";
+			productReference = 4FFF1F462B0683F8001AAC8F /* RomanConverter TDDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FFF1F242B0683F6001AAC8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4FFF1F2B2B0683F6001AAC8F = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					4FFF1F3B2B0683F8001AAC8F = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 4FFF1F2B2B0683F6001AAC8F;
+					};
+					4FFF1F452B0683F8001AAC8F = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 4FFF1F2B2B0683F6001AAC8F;
+					};
+				};
+			};
+			buildConfigurationList = 4FFF1F272B0683F6001AAC8F /* Build configuration list for PBXProject "RomanConverter TDD" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FFF1F232B0683F6001AAC8F;
+			productRefGroup = 4FFF1F2D2B0683F6001AAC8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FFF1F2B2B0683F6001AAC8F /* RomanConverter TDD */,
+				4FFF1F3B2B0683F8001AAC8F /* RomanConverter TDDTests */,
+				4FFF1F452B0683F8001AAC8F /* RomanConverter TDDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FFF1F2A2B0683F6001AAC8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFF1F372B0683F8001AAC8F /* Preview Assets.xcassets in Resources */,
+				4FFF1F342B0683F8001AAC8F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FFF1F3A2B0683F8001AAC8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FFF1F442B0683F8001AAC8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FFF1F282B0683F6001AAC8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFF1F322B0683F6001AAC8F /* ContentView.swift in Sources */,
+				4FFF1F302B0683F6001AAC8F /* RomanConverter_TDDApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FFF1F382B0683F8001AAC8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFF1F412B0683F8001AAC8F /* RomanConverter_TDDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FFF1F422B0683F8001AAC8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFF1F4D2B0683F8001AAC8F /* RomanConverter_TDDUITestsLaunchTests.swift in Sources */,
+				4FFF1F4B2B0683F8001AAC8F /* RomanConverter_TDDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FFF1F3E2B0683F8001AAC8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FFF1F2B2B0683F6001AAC8F /* RomanConverter TDD */;
+			targetProxy = 4FFF1F3D2B0683F8001AAC8F /* PBXContainerItemProxy */;
+		};
+		4FFF1F482B0683F8001AAC8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FFF1F2B2B0683F6001AAC8F /* RomanConverter TDD */;
+			targetProxy = 4FFF1F472B0683F8001AAC8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4FFF1F4E2B0683F8001AAC8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FFF1F4F2B0683F8001AAC8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FFF1F512B0683F8001AAC8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RomanConverter TDD/Preview Content\"";
+				DEVELOPMENT_TEAM = BQ55AJ4968;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "self.RomanConverter-TDD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FFF1F522B0683F8001AAC8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RomanConverter TDD/Preview Content\"";
+				DEVELOPMENT_TEAM = BQ55AJ4968;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "self.RomanConverter-TDD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FFF1F542B0683F8001AAC8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQ55AJ4968;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "self.RomanConverter-TDDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomanConverter TDD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RomanConverter TDD";
+			};
+			name = Debug;
+		};
+		4FFF1F552B0683F8001AAC8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQ55AJ4968;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "self.RomanConverter-TDDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomanConverter TDD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RomanConverter TDD";
+			};
+			name = Release;
+		};
+		4FFF1F572B0683F8001AAC8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQ55AJ4968;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "self.RomanConverter-TDDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RomanConverter TDD";
+			};
+			name = Debug;
+		};
+		4FFF1F582B0683F8001AAC8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQ55AJ4968;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "self.RomanConverter-TDDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RomanConverter TDD";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FFF1F272B0683F6001AAC8F /* Build configuration list for PBXProject "RomanConverter TDD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFF1F4E2B0683F8001AAC8F /* Debug */,
+				4FFF1F4F2B0683F8001AAC8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FFF1F502B0683F8001AAC8F /* Build configuration list for PBXNativeTarget "RomanConverter TDD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFF1F512B0683F8001AAC8F /* Debug */,
+				4FFF1F522B0683F8001AAC8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FFF1F532B0683F8001AAC8F /* Build configuration list for PBXNativeTarget "RomanConverter TDDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFF1F542B0683F8001AAC8F /* Debug */,
+				4FFF1F552B0683F8001AAC8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FFF1F562B0683F8001AAC8F /* Build configuration list for PBXNativeTarget "RomanConverter TDDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFF1F572B0683F8001AAC8F /* Debug */,
+				4FFF1F582B0683F8001AAC8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FFF1F242B0683F6001AAC8F /* Project object */;
+}
