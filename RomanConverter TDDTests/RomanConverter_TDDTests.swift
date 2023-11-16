@@ -18,7 +18,7 @@ final class RomanConverter_TDDTests: XCTestCase {
         XCTAssertEqual(converter.getRomanNumber(of: sample), "I")
     }
     
-    func testGiven2WhenConvertingShouldReturnI() {
+    func testGiven2WhenConvertingShouldReturnII() {
         let converter = Converter()
         
         let sample = 2
@@ -26,11 +26,19 @@ final class RomanConverter_TDDTests: XCTestCase {
         XCTAssertEqual(converter.getRomanNumber(of: sample), "II")
     }
     
-    func testGiven3WhenConvertingShouldReturnI() {
+    func testGiven3WhenConvertingShouldReturnIII() {
         let converter = Converter()
         
         let sample = 3
         
         XCTAssertEqual(converter.getRomanNumber(of: sample), "III")
+    }
+    
+    func testGiven5WhenConvertingShouldReturnV() {
+        let converter = Converter()
+        
+        let sample = 5
+        
+        XCTAssertEqual(converter.getRomanNumber(of: sample), "V")
     }
 }
