@@ -14,6 +14,7 @@
 		4FFF1F412B0683F8001AAC8F /* RomanConverter_TDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF1F402B0683F8001AAC8F /* RomanConverter_TDDTests.swift */; };
 		4FFF1F4B2B0683F8001AAC8F /* RomanConverter_TDDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF1F4A2B0683F8001AAC8F /* RomanConverter_TDDUITests.swift */; };
 		4FFF1F4D2B0683F8001AAC8F /* RomanConverter_TDDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF1F4C2B0683F8001AAC8F /* RomanConverter_TDDUITestsLaunchTests.swift */; };
+		4FFF1F5A2B068415001AAC8F /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF1F592B068415001AAC8F /* Converter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4FFF1F462B0683F8001AAC8F /* RomanConverter TDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RomanConverter TDDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FFF1F4A2B0683F8001AAC8F /* RomanConverter_TDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanConverter_TDDUITests.swift; sourceTree = "<group>"; };
 		4FFF1F4C2B0683F8001AAC8F /* RomanConverter_TDDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanConverter_TDDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4FFF1F592B068415001AAC8F /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				4FFF1F2F2B0683F6001AAC8F /* RomanConverter_TDDApp.swift */,
 				4FFF1F312B0683F6001AAC8F /* ContentView.swift */,
+				4FFF1F592B068415001AAC8F /* Converter.swift */,
 				4FFF1F332B0683F8001AAC8F /* Assets.xcassets */,
 				4FFF1F352B0683F8001AAC8F /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FFF1F322B0683F6001AAC8F /* ContentView.swift in Sources */,
+				4FFF1F5A2B068415001AAC8F /* Converter.swift in Sources */,
 				4FFF1F302B0683F6001AAC8F /* RomanConverter_TDDApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
