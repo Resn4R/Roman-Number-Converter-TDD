@@ -10,6 +10,11 @@ import Foundation
 struct Converter {
     
     func getRomanNumber(of number: Int) -> String {
-        number == 1 ? "I" : "II"
+        var result = ""
+        for i in 0..<number {
+            result += "I"
+        }
+        return result
     }
+    
 }
