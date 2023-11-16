@@ -49,4 +49,12 @@ final class RomanConverter_TDDTests: XCTestCase {
         
         XCTAssertEqual(converter.getRomanNumber(of: sample), "IV")
     }
+    
+    func testGiven10WhenConvertingShouldReturnX() {
+        let converter = Converter()
+        
+        let sample = 10
+        
+        XCTAssertEqual(converter.getRomanNumber(of: sample), "X")
+    }
 }
