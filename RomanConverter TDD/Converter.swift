@@ -10,14 +10,17 @@ import Foundation
 struct Converter {
     
     func getRomanNumber(of number: Int) -> String {
+        var result = ""
+
         if number == 5 {
-            return "V"
-        } else {
-            var result = ""
+            result = "V"
+        } else if number != 4 {
             for _ in 0..<number {
                 result += "I"
             }
-            return result
+        } else {
+            result = "IV"
         }
+        return result
     }
 }
