@@ -11,7 +11,7 @@ struct Converter {
     
     func getRomanNumber(of number: Int) -> String {
         var result = ""
-        for i in 0..<number {
+        for _ in 0..<number {
             result += "I"
         }
         return result
