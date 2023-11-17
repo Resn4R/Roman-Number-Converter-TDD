@@ -33,7 +33,15 @@ struct Converter {
         if referenceTable.contains(where: { (key: Int, _) in number == key }) {
             result = referenceTable[number]!
         } else {
-            
+            while number.isMultiple(of: 10) {
+                var rest = number % 10
+                var dividend = number / 10
+                
+                if rest > dividend {
+                    result += referenceTable[dividend] ?? ""
+                    result += referenceTable[rest] ?? ""
+                }
+            }
         }
         
         return result
