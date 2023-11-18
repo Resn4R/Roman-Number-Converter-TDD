@@ -27,6 +27,8 @@ struct Converter {
     
     func getRomanNumber(of number: Int) -> String {
         
+        guard number != 0 else { return "nope" }
+        
         var result = ""
         var remainder = number
         
